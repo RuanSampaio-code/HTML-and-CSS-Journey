@@ -9,20 +9,23 @@ body{
 }
 
 main {
-     background-color: rgb(190, 172, 64);
+     background-color: whitesmoke;
      width: 600px;
      padding: 10px;
      margin: auto;
      border-radius: 15px;
-     box-shadow: 5px 5px 15px rgba(33, 50, 87, 0.616);
+     box-shadow: 5px 5px  15px rgba(33, 50, 87, 0.616);
  }
 
  
 h1{
-    color: ;
+    color: #8d4c32 ;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.459);
 
 }
 h2{
+    color: #8C704F ;
 
     
 }
