@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Adicionando fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'tecno';
+            src: url("TechnoBoard.ttf") format ('truetype');
+
+            /* tipos de format
+            - otf
+            - ttf
+            - svg
+
+            
+            */
+        }
+        body{
+            font-family: 'tecno', 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam suscipit, voluptatem necessitatibus tempore odio dolorem fuga quis tempora. Incidunt reprehenderit labore suscipit, magni est ullam fuga accusamus numquam voluptates nihil.</p>
+
+    <h3>obs: </h3>
 </body>
 </html>
