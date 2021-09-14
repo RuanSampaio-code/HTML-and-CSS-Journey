@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/*
+- Em html o id é igual a # em css
+- Em html class é igual ao ponto '.' em css 
+*/
+body{
+    background-color: rgba(84, 206, 68, 0.623);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(42, 73, 11);
+}
+#Titulo{
+    text-align: center;
+    background-color: rgb(118, 180, 118);
+}
+h2{
+    color: rgb(18, 138, 18);
+}
