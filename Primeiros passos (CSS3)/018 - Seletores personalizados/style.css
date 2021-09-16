@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*
-- Em html o id é igual a # em css
-- Em html class é igual ao ponto '.' em css 
+- Em html o id é igual a # em css (so pode um elemento)
+- Em html class é igual ao ponto '.' em css ( pode varios elementos)
 */
 body{
     background-color: rgba(84, 206, 68, 0.623);
