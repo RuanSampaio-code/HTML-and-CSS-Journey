@@ -13,7 +13,20 @@ h1{
 #Titulo{
     text-align: center;
     background-color: rgb(118, 180, 118);
+    color: whitesmoke;
+    
+    
 }
 h2{
     color: rgb(18, 138, 18);
+}
+.basico {
+    color: rgb(18, 138, 18);
+}
+
+.intermediario {
+    color: blue;
+}
+.avancado{
+    color: crimson;
 }
