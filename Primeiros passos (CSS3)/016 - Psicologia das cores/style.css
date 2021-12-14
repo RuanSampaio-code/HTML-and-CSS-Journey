@@ -5,17 +5,19 @@
 }
 
 body{
-    background-image: linear-gradient(to right, #42708C, #77B3D9 );
+    background-image: linear-gradient(to right, #42708C, #1688cf );
 }
 
 main {
      background-color: whitesmoke;
-     width: 600px;
-     padding: 10px;
-     margin: auto;
+     width: 400px;
+     padding: 1em 2em 3em;
+     margin: 10em auto;
      border-radius: 15px;
-     box-shadow: 5px 5px  15px rgba(33, 50, 87, 0.616);
- }
+     box-shadow: rgba(0, 0, 0, 0.35) 10px 5px 20px;
+    
+ 
+    }
 
  
 h1{
