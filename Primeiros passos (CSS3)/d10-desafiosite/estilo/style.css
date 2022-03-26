@@ -30,16 +30,57 @@ body{
 }
 
 header{
-    background-color: var(--cor4);
+    background-image: linear-gradient(to right, green,blue,red);
+    min-height: 150px;
+    padding: 40px;
+
 }
 
 header h1{
     color: white ;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3em;
 }
 
+header p{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+
+}
+
+nav{
+    background-color: #2fa866;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    transition-duration: 0.4s;
+    padding: 20px;
+
+}
+
+nav a:hover{
+    background-color: #83e1ad;
+
+}
 main{
     background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.274);
+    border-radius: 10px;
 }
 main h1{
     color: var(--cor4);
@@ -48,4 +89,14 @@ main h1{
 }
 main h2{
     font-family: var;
+}
+
+main img{
+    width: 100%;
+}
+
+main img.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
 }
