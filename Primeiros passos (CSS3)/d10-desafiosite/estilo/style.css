@@ -112,6 +112,26 @@ main p{
     line-height: 1.5em; /* espaçamento entre linhas*/
 }
 
+/* o topico abaixo se trata de uma gambiarra referente ao resposividade do video
+ - aqui é trabalhado o conceito de position: relative e absolute 
+*/
+div.video{
+    background-color: var(--cor4);
+    padding: 20px;
+    margin: 0 -20px 30px -20px;
+    position: relative;
+    padding-bottom: 45%;
+}  
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+    
+}
+
 aside{
     background-color: var(--cor1);
     padding: 10px;
