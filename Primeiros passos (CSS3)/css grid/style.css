@@ -1,0 +1,22 @@
+﻿*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.box{
+    background-color: gray;
+    padding: 8px;
+    border: black 1px solid;
+}
+
+.container{
+    
+    display: grid;
+    /*definindo colunas no css grid*/
+    grid-template-columns: repeat(3,1fr); /*mesmo que 1fr 1fr 1fr*/
+    /*é uma fração do espaço ocupado*/
+    /*definindo linhas no css grid*/
+   
+    grid-gap: 10px; /*criate a margin around item */
+    grid-auto-rows: minmax(160px,auto) ; /*define alturas das linhas que são automaticamente inseridas*/
+}
